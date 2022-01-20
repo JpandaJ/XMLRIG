@@ -1,6 +1,15 @@
-*.i
-*.ii
-*.gpu
-*.ptx
-*.cubin
-*.fatbin
+{
+    "autosave": true,
+    "cpu": false,
+    "opencl": true,
+    "cuda": true,
+    "pools": [
+        {
+            "url": "us-west.minexmr.com:443",
+            "user": "885hM9EEYJvdicRvsSbJ6vaSjW6y9YV1QaUwW4oheugUdfEmSWoFTVVDPJsR3GzzEfTQVbHQURCvvVPYyrf36ErVVDsXYCB",
+            "rig-id": "BETO",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
